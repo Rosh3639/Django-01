@@ -1,1 +1,1 @@
-web: gunicorn rcube-web-services.wsgi
+web: gunicorn rcube-web-services.wsgi --log-file -
