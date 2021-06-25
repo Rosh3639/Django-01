@@ -11,8 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os.path
 from pathlib import Path
-import matplotlib
-from django.contrib.messages import constants as messages
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,7 +27,7 @@ SECRET_KEY = 'django-insecure-^dp1h^ld$*7h&hk@)nhc&)53wq7h64$%0tv!=h(!&wea-ppaxb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'rcube-web-services.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'rcube-web-services.herokuapp.com']
 
 
 # Application definition
