@@ -1,1 +1,1 @@
-web: gunicorn rcube-web-services.wsgi --log-file -
+web: Charts.wsgi --log-file -
