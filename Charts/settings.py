@@ -11,8 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os.path
 from pathlib import Path
-import matplotlib
-from django.contrib.messages import constants as messages
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -125,7 +124,7 @@ STATIC_URL = '/static/'
 
 # Added manually
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
+    BASE_DIR, "static"
 ]
 
 # Default primary key field type
